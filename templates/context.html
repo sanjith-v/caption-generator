@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Context – Instagram Caption Generator</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="/static/assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="/static/assets/css/noscript.css" /></noscript>
+    </head>
+    <body class="is-preload">
+        <!-- Sidebar -->
+        <section id="sidebar">
+            <div class="inner">
+                <h2>Additional Context</h2>
+    
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <div id="wrapper">
+            <section id="main" class="wrapper style1 fullscreen fade-up">
+                <div class="inner">
+                    <h1>Where the magic happens</h1>
+                    <p>Please provide any extra details to shape your caption.</p>
+                    <form action="/generate_caption" method="post">
+                        <!-- Hidden field to pass along the unique uid -->
+                        <input type="hidden" name="uid" value="{{ uid }}">
+                        <div class="fields">
+                            <div class="field">
+                                <label for="location">Location (add only if you want the caption to reference the location)</label>
+                                <input type="text" name="location" id="location" placeholder="e.g., Paris" />
+                            </div>
+                            <div class="field">
+                                <label for="tone">Tone (optional)</label>
+                                <input type="text" name="tone" id="tone" placeholder="e.g., playful" />
+                            </div>
+                            <div class="field">
+                                <label for="additional_context">Additional Context (optional)</label>
+                                <textarea name="additional_context" id="additional_context" rows="3" placeholder="Any other details?"></textarea>
+                            </div>
+                        </div>
+                        <ul class="actions">
+                            <li><input type="submit" value="Generate Caption" class="button primary" /></li>
+                        </ul>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer" class="wrapper style1-alt">
+            <div class="inner">
+                <ul class="menu">
+                    <li>&copy; Sanjith Krishna. All rights reserved.</li>
+                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="/static/assets/js/jquery.min.js"></script>
+        <script src="/static/assets/js/jquery.scrollex.min.js"></script>
+        <script src="/static/assets/js/jquery.scrolly.min.js"></script>
+        <script src="/static/assets/js/browser.min.js"></script>
+        <script src="/static/assets/js/breakpoints.min.js"></script>
+        <script src="/static/assets/js/util.js"></script>
+        <script src="/static/assets/js/main.js"></script>
+    </body>
+</html>
