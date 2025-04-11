@@ -3,6 +3,6 @@ uvicorn
 python-dotenv
 transformers
 torch
-openai
+openai==0.28
 Pillow
 python-multipart
