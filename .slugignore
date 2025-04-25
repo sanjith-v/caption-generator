@@ -1,0 +1,9 @@
+# ignore sample images
+test_pictures/
+
+# ignore old scripts
+attemp1.py
+attempt2.py
+blip.py
+image_analysis(slow).py
+image_analysis_hf.py
