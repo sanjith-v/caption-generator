@@ -1,0 +1,24 @@
+# Ignore sample images & data
+test_pictures/
+*.jpg
+*.jpeg
+*.png
+
+# Ignore old/unused scripts
+attemp1.py
+attempt2.py
+blip.py
+image_analysis(slow).py
+image_analysis_hf.py
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Git metadata
+.git
+.gitignore
+
+# OS files
+.DS_Store
