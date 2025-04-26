@@ -5,3 +5,4 @@ openai==0.28
 Pillow
 python-multipart
 huggingface-hub>=0.15.1
+jinja2
