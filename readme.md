@@ -4,6 +4,10 @@
 
 A GenAI-powered tool that automatically generates engaging Instagram captions from images. Built as part of my data science portfolio, this project showcases end-to-end expertise in computer vision, NLP, and scalable API development using Huggingface and OpenAI.
 
+## Live Demo
+
+Check out the live deployment here: [Instagram Caption Generator](https://caption-generator-24b124df5c0e.herokuapp.com)
+
 ## Key Features
 
 - **Image Understanding**: Uses Huggingface’s BLIP model to extract rich visual features and generate a concise scene description.
